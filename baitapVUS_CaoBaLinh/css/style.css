@@ -1,0 +1,251 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+    font-family: "Montserrat", sans-serif;
+    
+}
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+.clear{
+    clear: both;
+}
+h1{
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+header div div{
+    float: left;
+}
+header .logo{
+    width: 70%;
+}
+header .slogan{
+    width: 30%;
+}
+header nav{
+    width: 100%;
+    text-indent: 5px;
+    padding: 10px 0;
+}
+header nav ul{
+    padding: 0px;
+}
+
+header nav li {
+    /* float: left;
+    list-style: none; */
+    display: inline;
+    
+}
+
+header nav li a{
+    padding: 0px 3px;
+    text-decoration: none;
+    color: gray;
+    text-transform: uppercase;
+    font-weight: 550;
+    font-size: 0.97rem;
+    letter-spacing: -0.1px;
+    word-spacing: -0.1px;
+    
+}
+
+header nav a:hover{
+    color: red;
+    border: rgb(212, 11, 11);
+    border-width: 2px;
+    border-bottom-style: solid;
+}
+header nav a:focus {
+    color: red;
+    border: rgb(212, 11, 11);
+    border-width: 2px;
+    border-bottom-style: solid;
+}
+
+header hr{
+    opacity: 0.5;
+
+}
+
+.carousel img{
+    width: 100%;
+    padding: 0px 8px;
+}
+
+.intro{
+    text-align: center;
+    color:rgb(68, 68, 68);
+    
+}
+
+.intro h1{
+    padding-top: 4rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+.intro img{
+    margin-top: -15px;
+}
+.intro p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+    padding: 2rem 2rem 0;
+}
+
+/* program */
+.program{
+    text-align: center;
+    color:rgb(68, 68, 68);
+}
+
+.program h1{
+    padding-top: 4rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+.program img:first-child{
+    margin-top: -15px;
+    
+}
+
+/* program item */
+
+.program__item{
+    padding: 10px;
+
+    float: left;
+    width: 25%;
+    padding-top: 2rem;
+    text-align: left;
+    color:rgb(68, 68, 68);
+}
+
+.program__item img{
+    width: 100%;
+    
+}
+
+.program__item h4{
+    /* padding: 0px; */
+    font-size: 0.9rem;
+    text-align: left;
+    text-transform: uppercase;
+    color: rgb(179, 17, 17);
+    margin-top: -1px;
+    margin-bottom: -1px;
+
+}
+.program__item span{
+    font-size: 0.8rem;
+}
+
+/* information & event */
+
+.information{
+    text-align: center;
+    color:rgb(68, 68, 68);
+    padding: 1rem 0 2rem;
+}
+
+.information__content{
+    width: 100%;
+    padding: 1rem 0;
+}
+.information__left__content,.information__right{
+    float: left;
+    width: 50%;
+}
+.information__left__content{
+    padding: 8px;
+}
+.information__left{
+    background-image: url('../images/tin_tuc_1.jpg');
+    background-size: cover;
+    height: 416.5px;
+    position: relative;
+    /* gạch chân ảnh */
+    border-bottom-width: 3px;
+    border-bottom-style: ridge;
+    border-bottom-color: rgb(131, 28, 28);
+}
+
+.information__left p{
+    position: absolute;
+    top: 85%;
+    color: rgb(214, 211, 211);
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-indent: 15px;
+}
+
+.information__items{
+    
+    float: left;
+    width: 50%;
+    padding: 8px;
+    
+}
+
+.information__right__item{
+    position: relative;
+    height: 200px;
+    border-bottom-width: 3px;
+    border-bottom-style: ridge;
+    border-bottom-color: rgb(131, 28, 28);
+}
+
+.information__right div:first-child .information__right__item{
+    background-image: url('../images/tin_tuc_2.jpg');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    position: relative;
+    /* background-clip: border-box; */
+    
+}
+.information__right .information__items:nth-child(2) .information__right__item{
+    background-image: url('../images/tin_tuc_3.jpg');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* background-clip: border-box; */
+}
+.information__right .information__items:nth-child(3) .information__right__item{
+    background-image: url('../images/tin_tuc_4.jpg');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* background-clip: border-box; */
+
+}
+.information__right .information__right__item:last-child{
+    background-image: url('../images/tin_tuc_5.jpg');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* background-clip: border-box; */
+}
+
+.information__right__item p{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    text-align: left;
+    color: rgb(226, 226, 226);
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    padding: 10px 2px;
+    background-color: rgba(0, 0, 0, 0.450);   
+}

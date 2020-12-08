@@ -1,0 +1,108 @@
+.feedback {
+    padding: 30px 0 0 0;
+    background: #f7f8fa;
+    margin-bottom: 40px;
+    .feedback__content {
+        .slick-prev::before,.slick-next::before{
+            color: #007791;
+        }
+        .students__feedback {
+            margin-left: 5px;
+            padding-bottom: 40px;
+            //        display: grid;
+            //        grid-template-columns: repeat(3, 1fr);
+            //        gap: 13px;
+            .feedback__item {
+                max-width: 95%;
+                margin-right: 15px;
+                padding: 32px;
+                border-radius: 3px;
+                box-shadow: 0 1px 3px 0 rgba(20, 23, 28, .15);
+                background: #fff;
+                min-height: 260px;
+                
+                .feedback__infor {
+                    margin-bottom: 18px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+
+                    .feedback__image {
+                        img {
+                            width: 64px;
+                            height: 64px;
+                            border-radius: 50%;
+                            margin-right: 18px;
+                        }
+                    }
+
+                    .feedback__name {
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 1.5em;
+                    }
+
+                }
+
+            }
+
+
+        }
+
+        .logo__content {
+            display: flex;
+            justify-content: center;
+
+            .logo__item {
+                margin: 0 32px;
+                padding-bottom: 24px;
+            }
+        }
+
+        h6 {
+            padding-top: 8px;
+            padding-bottom: 32px;
+            text-align: center;
+            color: #686f7a;
+            font-size: 13px;
+        }
+
+        .an__for {
+            display: flex;
+            padding-bottom: 22px;
+            .left,
+            .right {
+                padding: 28px 30px;
+
+                .left__content,
+                .right__content {
+                    text-align: center;
+
+                    a {
+                        font-size: 19px;
+                        font-weight: 700;
+                        line-height: 1.47em;
+                        color: #505763;
+                    }
+
+                    p {
+                        max-width: 400px;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 1.5em;
+                        padding-top: 3px;
+                        margin: 0 auto 15px;
+                    }
+                }
+            }
+
+            .left {
+                border: none;
+                border-right: 1px solid #dedfe0;
+            }
+        }
+    }
+
+
+
+}
